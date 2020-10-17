@@ -198,10 +198,11 @@
         vid.firstChild.innerHTML = vid.firstChild.innerHTML=='videocam'?'videocam_off':'videocam'
       })
      
-      const mailbtn = document.getElementById("mail");
-       mailbtn.addEventListener('click',()=>{
-        window.open(`http://localhost:80/VideoCallMail/sendMail.php?url=${window.location.href}`, '_blank');
-       });
+      // mailing endpoint -- locally-hosted  
+      // const mailbtn = document.getElementById("mail");
+      //  mailbtn.addEventListener('click',()=>{
+      //   window.open(`http://localhost:80/VideoCallMail/sendMail.php?url=${window.location.href}`, '_blank');
+      //  });
 
        // profile menu toggle
        function profile_menu()
