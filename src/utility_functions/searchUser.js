@@ -1,4 +1,4 @@
-const connection = require("../db/creds_local");
+const connection = require("../db/connection");
 
 // query database
 function searchUser(username) {
