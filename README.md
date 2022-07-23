@@ -1,4 +1,4 @@
-# Conafab: An Video Chat Web App
+# Confab: An Video Chat Web App
 
 A video chat web app built to explore peer to peer communication. Supports all the basic functionalitites like video streaming, mailing service, mute/unmute and video recording. A user can start a meeting, share the meeting link or the meeting code with other users to join. 
 
